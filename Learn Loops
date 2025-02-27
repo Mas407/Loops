@@ -357,3 +357,21 @@ int main() {
     cout << "Compound Interest: " << compoundInterest(1000, 0.05, 10) << endl;
     return 0;
 }
+//For show this series 1 -4  7 -10 ……..-40 
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+int i,a=1,p;
+for(i=1; a<=40; i++ ){
+	if(i%2==0){
+		p=-a;
+		cout<<p<<" ";
+	}
+	else 
+	cout<<a<<" ";
+	a+=3;
+}
+	return 0;
+}
+
